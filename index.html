@@ -4,24 +4,32 @@
 <head>
   <meta charset="utf-8">
   <title> Huey Freeman Portfolio - Assignment 1 </title>
-  <link rel="stylesheet" type="text/css" href="assets/csss/style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-  <h1>Huey Freeman</h1>
+  <div class="header">
 
-  <!-- Navigation bar elements -->
-  <a href="index.html"> About</a>
-  <a href="#"> Portfolio</a>
-  <a href="contact.html"> Contact</a>
+    <h1 class="title_block">Huey Freeman</h1>
+
+    <!-- Navigation bar elements -->
+    <div class="nav_block">
+      <a class="nav" href="index.html"> About</a>
+      <a class="nav" href="portfolio.html"> Portfolio</a>
+      <a class="nav" href="contact.html"> Contact</a>
+    </div>
+    <hr class="header_bar" noshade>
+  </div>
+
 
   <!-- Main body of page. Includes About Me and Connect with Me sections -->
   <div>
     <!-- About Me section of the the page -->
-    <section>
+    <div class="main_content">
       <h2>About Me</h2>
+      <hr class="content_bar" noshade>
 
-      <img src = "assets/images/huey_freeman_rebel.png" alt = "Picture of Huey" height="150"/>
+      <img class="huey_image" src = "assets/images/huey_freeman_rebel.png" alt = "Picture of Huey" height="200"/>
 
       <p>
         Huey Freeman is one of the main protagonists and antihero in The Boondocks.
@@ -35,30 +43,29 @@
         by their grandfather Robert Jebediah Freeman.
         It is strongly believed that Huey's and Riley's birth parents are deceased.
       </p>
-    </section>
+    </div>
 
     <!-- Connect with Me section of the the page -->
-    <section>
+    <div class="connect_box">
       <h2>Connect with Me</h2>
+      <hr class="content_bar" noshade>
 
       <a href="#">
-        <img src ="assets/images/github-mark.png" alt ="Github Logo" height="30" />
+        <img class="icons" src ="assets/images/github-mark.png" alt ="Github Logo" height="30" />
       </a>
       <a href="#">
-        <img src="assets/images/linkedin_logo_initials.png" alt="LinkedIn Logo" height="30" />
+        <img class="icons" src="assets/images/linkedin_logo_initials.png" alt="LinkedIn Logo" height="30" />
       </a>
       <a href="#">
-        <img src="assets/images/stack_overflow_icon.png" alt="StackOverflow Logo" height="30" />
+        <img class="icons" src="assets/images/stack_overflow_icon.png" alt="StackOverflow Logo" height="30" />
       </a>
-    </section >
+    </div >
 
   </div>
   <div>
     <!-- Footer of the page -->
     <footer>
-      <p>
         &#169; Copyright 2017 Huey Freeman
-      </p>
     </footer>
   </div>
 </body>
