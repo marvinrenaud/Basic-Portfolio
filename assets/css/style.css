@@ -141,3 +141,96 @@ button {
   padding: 10px 10px 10px 0px;
   position: relative;
 }
+
+.portfolio_title1 {
+  position: absolute;
+  width: 250px;
+  height: 40px;
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  line-height: 40px;
+  background-color: #666699;
+  opacity: 0.95;
+  top: 285px;
+  /** bottom: 0px; **/
+  z-index: 1;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 20px;
+}
+
+.portfolio_title2 {
+  position: absolute;
+  width: 250px;
+  height: 40px;
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  line-height: 40px;
+  background-color: #666699;
+  opacity: 0.95;
+  top: 285px;
+  left: 280px;
+  /** bottom: 0px; **/
+  z-index: 1;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 20px;
+}
+
+.portfolio_title3 {
+  position: absolute;
+  width: 250px;
+  height: 40px;
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  line-height: 40px;
+  background-color: #666699;
+  opacity: 0.95;
+  top: 575px;
+  /** left: 280px; **/
+  /** bottom: 0px; **/
+  z-index: 1;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 20px;
+}
+
+.portfolio_title4 {
+  position: absolute;
+  width: 250px;
+  height: 40px;
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  line-height: 40px;
+  background-color: #666699;
+  opacity: 0.95;
+  top: 575px;
+  left: 280px;
+  /** bottom: 0px; **/
+  z-index: 1;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 20px;
+}
+
+.portfolio_title5 {
+  position: absolute;
+  width: 250px;
+  height: 40px;
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  line-height: 40px;
+  background-color: #666699;
+  opacity: 0.95;
+  top: 845px;
+  /** bottom: 0px; **/
+  z-index: 1;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 20px;
+}
+
+
+.portfolio_box {
+  float: left;
+}
