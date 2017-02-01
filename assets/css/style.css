@@ -116,6 +116,7 @@ footer {
   color: white;
   padding: 20px 20px 20px 20px;
   text-align: center;
+  z-index: 2
 }
 
 button {
@@ -206,7 +207,7 @@ button {
   background-color: #666699;
   opacity: 0.95;
   top: 575px;
-  left: 280px;
+  left: 286px;
   /** bottom: 0px; **/
   z-index: 1;
   padding: 0px 0px 0px 0px;
